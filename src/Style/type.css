@@ -1,0 +1,120 @@
+.product-type {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.type-section {
+    display: flex;
+}
+.type-section-left {
+    margin-right: 30px;
+    width: 23%;
+}
+.type-category .dmsp {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.type-category > h4 {
+    margin-bottom: 20px;
+}
+.type-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.type-left a {
+    border-bottom: none !important;
+    color: #777 !important;
+    text-decoration: none;
+    font-size: 18.4px;
+}
+.type-line {
+    margin: 0 10px;
+    color: #777;
+}
+.type-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #353535;
+    text-transform: uppercase;
+
+}
+.type-right span{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.oderby {
+    margin: 5px 0;
+    padding: 10px 0 10px 10px;
+    background-color: rgb(248, 247, 247);
+    font-size: 15.5px;
+    border: 1px solid #ddd;
+}
+
+
+.wrp-category {
+    border: 1px solid #ddd;
+    padding: 10px 0;
+    background-color: rgba(221, 221, 221, 0.1);
+    border-radius: 3px;
+}
+.wrp-category a{
+    display: block;
+    font-size: 14px;
+    margin: 0 15px;
+    padding: 10px 0;
+    color: rgb(99, 98, 98) !important;
+    border-bottom: none;
+    text-decoration: none;
+}
+.wrp-category a:hover {
+    color: #000 !important;
+}
+.wrp-category .dadsed {
+    border-bottom: 1px dashed #ddd;
+}
+
+.type-section-right {
+    width: calc(100% - 23%);
+}
+.wrp-type-section {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 4;
+    justify-content: space-between;
+}
+.type-section-item {
+    max-width: 23.5%;
+    flex-basis: 25%;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;  
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.11), 0 1px 2px 0 rgba(0, 0, 0, 0.11);
+}
+.type-section-item:hover {
+    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.11), 0 1px 2px 0 rgba(0, 0, 0, 0.11);
+}
+.type-product h4 {
+    padding: 25px 0;
+}
+.wrp-category a {
+    display: flex;
+}
+.wrp-category a img {
+    width: 60px;
+    margin-right: 15px;
+}
+.name-list-right {
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.prince-list-right {
+    font-weight: bold;
+    color: #000;
+}
